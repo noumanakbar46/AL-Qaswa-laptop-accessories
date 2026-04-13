@@ -31,3 +31,7 @@ Al Qaswa is an animated, responsive wholesale website for laptop chargers featur
 | Google Fonts (Inter) | Typography |
 
 ## 📁 Project Structure
+al-qaswa-wholesale-website/
+├── index.html          # Main website file
+├── README.md           # Project documentation
+└── assets/             # (Optional) Images, logos, or additional files

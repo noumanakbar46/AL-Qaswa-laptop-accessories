@@ -6,7 +6,7 @@ Al Qaswa is an animated, responsive wholesale website for laptop chargers featur
 
 ## 🚀 Live Demo
 
-[View Website](https://alqaswa.netlify.app/) *(Replace with your GitHub Pages link)*
+[View Website](https://alqaswa.netlify.app/) 
 
 ## 📋 Features
 

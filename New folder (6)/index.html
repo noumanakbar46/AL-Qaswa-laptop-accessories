@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Al Qaswa | Premium Laptop Chargers Wholesale</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #3b82f6;
+            border-radius: 10px;
+        }
+
+        /* Animated Gradient Background for Hero */
+        .hero {
+            background: linear-gradient(135deg, #0a0f2c 0%, #0f172a 50%, #1e293b 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            top: -50%;
+            left: -50%;
+            background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, rgba(0,0,0,0) 70%);
+            animation: pulseGlow 12s infinite alternate;
+            pointer-events: none;
+        }
+        @keyframes pulseGlow {
+            0% { opacity: 0.3; transform: scale(0.8);}
+            100% { opacity: 0.8; transform: scale(1.2);}
+        }
+
+        /* Floating particles */
+        .particle {
+            position: absolute;
+            background: rgba(59,130,246,0.4);
+            border-radius: 50%;
+            pointer-events: none;
+            filter: blur(2px);
+            animation: floatParticle 15s infinite linear;
+        }
+        @keyframes floatParticle {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.8; }
+            90% { opacity: 0.8; }
+            100% { transform: translateY(-20vh) rotate(360deg); opacity: 0; }
+        }
+
+        /* Logo animation */
+        .logo-icon {
+            transition: transform 0.3s ease;
+        }
+        .logo-icon:hover {
+            transform: rotate(5deg) scale(1.05);
+        }
+
+        /* Brand Cards */
+        .brand-card {
+            background: white;
+            border-radius: 2rem;
+            transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1);
+            backdrop-filter: blur(2px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .brand-card:hover {
+            transform: translateY(-12px) scale(1.02);
+            box-shadow: 0 30px 40px -12px rgba(0,0,0,0.25);
+            border-color: #3b82f6;
+        }
+        .brand-icon {
+            font-size: 3.5rem;
+            background: linear-gradient(135deg, #2563eb, #38bdf8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        /* WhatsApp Button Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            border-radius: 60px;
+            padding: 14px 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            box-shadow: 0 8px 25px rgba(37,211,102,0.4);
+            z-index: 1000;
+            transition: 0.3s;
+            text-decoration: none;
+            font-size: 1.1rem;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.08);
+            background: #20b859;
+            box-shadow: 0 12px 30px rgba(37,211,102,0.6);
+        }
+
+        /* Map Container */
+        .map-container iframe {
+            border-radius: 28px;
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.2);
+            transition: 0.4s;
+            width: 100%;
+            height: 320px;
+            border: none;
+        }
+        .map-container iframe:hover {
+            transform: scale(1.01);
+            box-shadow: 0 25px 40px -12px black;
+        }
+
+        /* Button Glow */
+        .btn-glow {
+            background: linear-gradient(95deg, #2563eb, #1e40af);
+            transition: all 0.3s;
+            box-shadow: 0 4px 14px 0 rgba(37,99,235,0.4);
+        }
+        .btn-glow:hover {
+            box-shadow: 0 6px 20px rgba(37,99,235,0.6);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: #0f172a;
+            color: #cbd5e1;
+        }
+
+        @media (max-width: 768px) {
+            .whatsapp-float {
+                padding: 10px 18px;
+                font-size: 0.9rem;
+                bottom: 20px;
+                right: 20px;
+            }
+            .brand-icon {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- WhatsApp Fixed Button -->
+<a href="https://wa.me/923379768877?text=Hello%20Al%20Qaswa%2C%20I%27m%20interested%20in%20bulk%20laptop%20chargers!" 
+   class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp fa-2x"></i> 
+    <span>WhatsApp | Bulk Order</span>
+</a>
+
+<!-- Hero Section with animated particles -->
+<section class="hero min-vh-100 d-flex align-items-center position-relative overflow-hidden" style="min-height: 100vh;">
+    <!-- JavaScript particles will be injected -->
+    <div class="container py-5 position-relative z-2">
+        <div class="row align-items-center">
+            <div class="col-lg-7 text-white" data-aos="fade-up" data-aos-duration="1000">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                    <!-- Animated Logo Area -->
+                    <div class="logo-icon bg-white bg-opacity-10 p-3 rounded-4 d-inline-flex">
+                        <i class="fas fa-bolt fa-3x text-warning"></i>
+                    </div>
+                    <div>
+                        <h1 class="display-3 fw-bold" style="letter-spacing: -0.02em;">AL QASWA</h1>
+                        <p class="lead fw-semibold text-primary">POWERING DEVICES, BULK SOLUTIONS</p>
+                    </div>
+                </div>
+                <h2 class="display-5 fw-semibold mb-3">Premium Laptop Chargers <br> <span class="text-warning">Wholesale Supplier</span></h2>
+                <p class="fs-5 mb-4 opacity-90">We are a leading wholesaler of laptop accessories, specializing in bulk quantities of high-quality laptop chargers. All types, all brands — ready for resellers and businesses.</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#contact" class="btn btn-glow btn-lg text-white px-5 py-3 rounded-pill fw-semibold"><i class="fas fa-phone-alt me-2"></i> Contact Sales</a>
+                    <a href="#brands" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill fw-semibold"><i class="fas fa-charging-station me-2"></i> Explore Brands</a>
+                </div>
+                <div class="mt-5 d-flex gap-4 flex-wrap">
+                    <div><i class="fas fa-check-circle text-primary me-2"></i> Bulk Quantity Ready</div>
+                    <div><i class="fas fa-check-circle text-primary me-2"></i> All Types Available</div>
+                    <div><i class="fas fa-check-circle text-primary me-2"></i> Direct Wholesale Price</div>
+                </div>
+            </div>
+            <div class="col-lg-5 mt-5 mt-lg-0 text-center" data-aos="zoom-in" data-aos-delay="200">
+                <div class="bg-white bg-opacity-10 p-4 rounded-5 backdrop-blur-sm">
+                    <i class="fas fa-plug fa-5x text-primary mb-3"></i>
+                    <h3 class="text-white">Stock ready for <br> immediate dispatch</h3>
+                    <div class="mt-3 d-flex justify-content-center gap-3">
+                        <span class="badge bg-dark px-3 py-2">1000+ Units</span>
+                        <span class="badge bg-primary px-3 py-2">24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Brands Section: Laptop Chargers -->
+<section id="brands" class="py-5 bg-light">
+    <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="badge bg-primary bg-opacity-10 text-primary px-4 py-2 rounded-pill fw-semibold"><i class="fas fa-microchip me-2"></i>Premium Partners</span>
+            <h2 class="display-5 fw-bold mt-3">We Stock All Major <span class="text-primary">Brand Chargers</span></h2>
+            <p class="fs-5 text-secondary mx-auto" style="max-width: 700px;">Original & compatible chargers for top laptop brands — available in wholesale bulk quantities.</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Brand Cards Loop -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="brand-card p-4 text-center h-100">
+                    <i class="fab fa-apple brand-icon"></i>
+                    <h3 class="fs-2 fw-bold mt-3">Apple</h3>
+                    <p>MagSafe, USB-C, 30W to 140W • Genuine & high-quality compatible chargers.</p>
+                    <div class="mt-2"><span class="badge bg-success">Bulk Stock</span></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                <div class="brand-card p-4 text-center h-100">
+                    <i class="fas fa-laptop-code brand-icon"></i>
+                    <h3 class="fs-2 fw-bold mt-3">Dell</h3>
+                    <p>Latitude, XPS, Inspiron series chargers, Type-C • 45W/65W/90W/130W available.</p>
+                    <div class="mt-2"><span class="badge bg-success">Ready Stock</span></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="brand-card p-4 text-center h-100">
+                    <i class="fas fa-microchip brand-icon"></i>
+                    <h3 class="fs-2 fw-bold mt-3">Lenovo</h3>
+                    <p>ThinkPad, Legion, Yoga chargers • Type-C & USB • Bulk wholesale.</p>
+                    <div class="mt-2"><span class="badge bg-success">Heavy Stock</span></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+                <div class="brand-card p-4 text-center h-100">
+                    <i class="fas fa-charging-station brand-icon"></i>
+                    <h3 class="fs-2 fw-bold mt-3">HP</h3>
+                    <p>Pavilion, EliteBook, ProBook chargers • 45W/65W/90W/120W, Blue pin, Type-c Big pin.</p>
+                    <div class="mt-2"><span class="badge bg-success">Bulk Ready</span></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="brand-card p-4 text-center h-100">
+                    <i class="fas fa-desktop brand-icon"></i>
+                    <h3 class="fs-2 fw-bold mt-3">ASUS</h3>
+                    <p>ROG, TUF, Vivobook chargers • 19V, 20V variants available in wholesale.</p>
+                    <div class="mt-2"><span class="badge bg-success">Large Quantity</span></div>
+                </div>
+            </div>
+            <!-- <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
+                <div class="brand-card p-4 text-center h-100">
+                    <i class="fas fa-plug brand-icon"></i>
+                    <h3 class="fs-2 fw-bold mt-3">Acer & More</h3>
+                    <p>Also MSI, Samsung, Huawei — we have all types of laptop chargers.</p>
+                    <div class="mt-2"><span class="badge bg-info text-dark">Unlimited Stock</span></div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+            <p class="lead fw-semibold"><i class="fas fa-cubes text-primary me-2"></i> We supply all types of laptop chargers in bulk quantity — from 30W to 240W, round pin, USB-C, MagSafe, slim tip.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Us + Location Section -->
+<section class="py-5" style="background: linear-gradient(120deg, #ffffff 0%, #f1f5f9 100%);">
+    <div class="container py-4">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <span class="badge bg-dark text-white px-3 py-2 mb-3"><i class="fas fa-store me-1"></i> About Al Qaswa</span>
+                <h2 class="display-5 fw-bold">Wholesale Supplier of <span class="text-primary">Laptop Accessories</span></h2>
+                <p class="fs-5 mt-4 text-secondary">We are <strong class="text-dark">Al Qaswa</strong>, a trusted B2B wholesaler based in Sharjah Industrial Area 6. We specialize in selling laptop chargers and accessories in <strong>bulk quantities</strong> to resellers, retailers, and businesses across UAE & international markets.</p>
+                <p class="fs-5 text-secondary">Our warehouse holds thousands of units from top brands: HP, Lenovo, Dell, Apple, ASUS, Acer, and universal chargers. We ensure quality, competitive pricing, and fast dispatch for bulk orders.</p>
+                <div class="mt-4 d-flex gap-4 flex-wrap">
+                    <div><i class="fas fa-check-circle text-primary"></i> 24/7 Wholesale Support</div>
+                    <div><i class="fas fa-truck-fast text-primary"></i> Express Shipping</div>
+                    <div><i class="fas fa-hand-holding-usd text-primary"></i> Best Trade Prices</div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="bg-white p-3 rounded-4 shadow-lg">
+                    <div class="map-container">
+                        <!-- Google Maps Embed with given coordinates -->
+                        <iframe src="https://www.google.com/maps?q=25.319611,55.415167&z=17&output=embed" 
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                title="Al Qaswa Location - Sharjah Industrial Area 6">
+                        </iframe>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <p class="mb-1"><i class="fas fa-map-marker-alt text-danger me-2"></i> <strong>Sharjah Industrial Area 6</strong> – UAE</p>
+                        <p><i class="fas fa-phone-alt me-2 text-primary"></i> +92 337 9768877  |  <i class="fas fa-envelope"></i> noumanakbar46@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact & CTA Section -->
+<section id="contact" class="py-5 bg-dark text-white">
+    <div class="container py-5 text-center" data-aos="zoom-in">
+        <h2 class="display-5 fw-bold">Need Bulk Laptop Chargers?</h2>
+        <p class="fs-4 mb-4 opacity-75">Get wholesale pricing, catalog & immediate stock details.</p>
+        <div class="d-flex flex-wrap justify-content-center gap-4">
+            <a href="tel:+923379768877" class="btn btn-outline-light btn-lg px-5 rounded-pill"><i class="fas fa-phone-alt me-2"></i> Call Now</a>
+            <a href="https://wa.me/923379768877?text=I%20need%20wholesale%20laptop%20chargers%20bulk%20price" target="_blank" class="btn btn-success btn-lg px-5 rounded-pill"><i class="fab fa-whatsapp me-2"></i> WhatsApp Inquiry</a>
+        </div>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-8">
+                <div class="bg-white bg-opacity-10 p-4 rounded-4">
+                    <p class="mb-0 fw-light"><i class="fas fa-warehouse me-2"></i> Address: Sharjah Industrial Area 6, Near Main Road, UAE <br> <i class="fas fa-clock"></i> Warehouse timing: Monday - Sunday: 9AM - 12PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-4 text-center">
+    <div class="container">
+        <p class="mb-0">© 2025 Al Qaswa – Premium Laptop Chargers Wholesale | All types of laptop chargers in bulk quantity</p>
+        <small class="text-secondary">Designed for excellence | Wholesale Enquiries: +92 337 9768877</small>
+    </div>
+</footer>
+
+<!-- Scripts: AOS + Particle Animation -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,
+        once: true,
+        mirror: false
+    });
+
+    // Animated Floating Particles for Hero
+    function createParticles() {
+        const heroSection = document.querySelector('.hero');
+        if(!heroSection) return;
+        for(let i=0; i<70; i++) {
+            let particle = document.createElement('div');
+            particle.classList.add('particle');
+            let size = Math.random() * 8 + 2;
+            particle.style.width = size + 'px';
+            particle.style.height = size + 'px';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDuration = 8 + Math.random() * 15 + 's';
+            particle.style.animationDelay = Math.random() * 10 + 's';
+            particle.style.opacity = Math.random() * 0.5 + 0.2;
+            heroSection.appendChild(particle);
+        }
+    }
+    createParticles();
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if(targetId === "#" || targetId === "") return;
+            const target = document.querySelector(targetId);
+            if(target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+</script>
+
+<!-- Bootstrap CSS for grid & utilities (lightweight) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</body>
+</html>
